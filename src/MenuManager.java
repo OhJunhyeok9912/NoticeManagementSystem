@@ -26,7 +26,7 @@ public class MenuManager {
 		        	 System.out.println("Career: ");
 		        	 String career = input.nextLine();
 		        	 System.out.println("Gender: ");
-		        	 String sex = input.nextLine();
+		        	 String gender = input.nextLine();
 		        	 System.out.println("Age: ");
 		        	 String age = input.nextLine();
 		        	 System.out.println("Academic background: ");
