@@ -58,6 +58,7 @@ public class MenuManager {
 		        	 String submission= input.nextLine();
 		        	 System.out.println("Comment: ");
 		        	 String comment= input.nextLine();
+		        	 break;
 		         case "2":
 		        	    System.out.println("Enter the Notice number you want to delete': "); // 
 		        	    String Num3 = input.nextLine();
