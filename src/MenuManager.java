@@ -13,7 +13,7 @@ public class MenuManager {
 		     System.out.println("5. Show a Menu");
 		     System.out.println("6. Exit");
 		     System.out.println("Select one number between 1 - 6"); 
-		     num = input.nextLine();  //num을 String으로 했습니다. int로 선언하면 num = input.nextInt();로 입력하고 공고넘버를 입력하는 줄이 자동으로 넘어가는 버그가 발생했고 num을 string으로하고 nextLine으로 입력받도록하니 버그가 발생하지 않았습니다.
+		     num = input.nextLine(); 
 		     switch(num) {
 		         case "1":
 		        	 System.out.println("Notice number: ");
