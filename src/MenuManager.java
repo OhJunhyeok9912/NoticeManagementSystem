@@ -59,13 +59,16 @@ public class MenuManager {
 		        	 System.out.println("Comment: ");
 		        	 String comment= input.nextLine();
 		         case "2":
+		        	    System.out.println("Enter the Notice number you want to delete': "); // 
+		        	    String Num3 = input.nextLine();
 	        	        break;
 		         case "3":
-		        	 
+		        	    System.out.println("Enter the Notice number you want to edit': "); // 
+		        	    String Num4 = input.nextLine();
 	        	        break;
 		         case "4":
-		        	    System.out.println("Enter the Notice's No.': ");
-		        	    String Num2 = input.nextLine();
+		        	    System.out.println("Enter the Notice number you want to view': ");
+		        	    String Num5 = input.nextLine();
 	        	        break;
 		         case "5":
 	        	        break;
