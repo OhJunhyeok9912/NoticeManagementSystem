@@ -25,7 +25,7 @@ public class MenuManager {
 		        	 String period = input.nextLine();
 		        	 System.out.println("Career: ");
 		        	 String career = input.nextLine();
-		        	 System.out.println("Sex: ");
+		        	 System.out.println("Gender: ");
 		        	 String sex = input.nextLine();
 		        	 System.out.println("Age: ");
 		        	 String age = input.nextLine();
@@ -61,6 +61,7 @@ public class MenuManager {
 		         case "2":
 	        	        break;
 		         case "3":
+		        	 
 	        	        break;
 		         case "4":
 		        	    System.out.println("Enter the Notice's No.': ");
